@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.App {
+  background-color: cornflowerblue;
+  margin-left: 90px;
+  margin-right: 90px;
+  border: 5px solid red;
+  border-radius: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#drum-machine {
+  margin-top: calc(50% - 150px);
+  margin-bottom: calc(50% - 150px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#drum-pad {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.drum-pad {
+  width: 75px;
+  height: 50px;
+}
+
+#display {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#display p {
+  background-color: whitesmoke;
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+}
+
+#btn {
+  margin-top: 15px;
+}
+#btn button{
+  width: 60px;
+  height: 40px;
+}
+
+#turn-off {
+  margin-right: 20px;
+}
